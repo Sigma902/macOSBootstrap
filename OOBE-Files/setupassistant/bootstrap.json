@@ -7,7 +7,7 @@
   		"type": "rootscript",
 		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/setTimeServer.sh",
   		"hash": "2ad7a035373584f58cb5c2744f7a6b479fa1ffbd182b7063f4fa723931bb9f0b",
-		  "file": "/Library/installapplications/setTimeServer.sh",
+		  "file": "/Library/installapplications/userscripts/setTimeServer.sh",
 		  "donotwait": false
 		},
 		{
@@ -20,31 +20,13 @@
 		  "version": "20.01"
 		},
 		{
-		  "name": "dockutil",
-		  "type": "package",
-		  "url": "https://github.com/kcrawford/dockutil/releases/download/2.0.5/dockutil-2.0.5.pkg",
-		  "hash": "919edd386f124a1db90e071bbe480fbc4146648573e1fbf4916378d696de365c",
-		  "file": "/Library/installapplications/dockutil-2.0.5.pkg",
-		  "packageid": "dockutil.cli.tool",
-		  "version": "2.0.5"
-		}
-	],
-	"userland": [
-		{
-		  "name": "01-DEPNotify-Example-1.0.pkg",
-		  "file": "/Library/installapplications/01-DEPNotify-Example-1.0.pkg",
-		  "hash": "accac931baf5aa6b2b528af321772b99564070d7c16a8ec4a39cebc4a7b2c122",
+		  "name": "DEPNotify.pkg",
+		  "file": "/Library/installapplications/DEPNotify.pkg",
+		  "hash": "d969b3f5f617424de526a45f5b8badf1d7cbfef8974691beecb3729103003ba0",
 		  "packageid": "com.vmware.airwatch.depnotify",
 		  "type": "package",
-		  "url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/setupassistant/01-DEPNotify-Example-1.0.pkg",
-		  "version": "1.0"
-		},
-		{
-  		"name": "Verifying File Permissions",
-  		"type": "rootscript",
-  		"url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",
-  		"hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
-		 	"file": "/Library/installapplications/fix_file_perms.sh"
+		  "url": "https://files.nomad.menu/DEPNotify.pkg",
+		  "version": "1.1.5"
 		},
 		{
 		  "name": "MS Outlook 2019",
@@ -54,6 +36,15 @@
 		  "file": "/Library/installapplications/Microsoft_Outlook_16.34.20020900_Installer.pkg",
 		  "packageid": "com.microsoft.outlook",
 		  "version": "16.34.20020900"
+		}
+	],
+	"userland": [
+		{
+  		"name": "Verifying File Permissions",
+  		"type": "rootscript",
+  		"url": "https://raw.githubusercontent.com/Sigma902/macOSBootstrap/master/OOBE-Files/userland/fix_file_perms.sh",
+  		"hash": "cd16659dbca1bde1cfd079b6279b1cc0848538e2a964d0f6d2913ff2b36e4c75",
+		 	"file": "/Library/installapplications/userscripts/fix_file_perms.sh"
 		}
     ]
 }
